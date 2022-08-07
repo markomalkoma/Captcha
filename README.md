@@ -1,3 +1,7 @@
 ## Captcha
 
-Creating code that will recognize and extract text from image, and then slice, resize, and rotate letters. Neural network model is trained for each letter. Text predictions are corrected with additional calculations.
+The neural network model is trained to recognize characters in a particular font.
+Model parameters are stored in the file. 
+An image's text is extracted utilizing code, which then slices, resizes, and rotates the letters. 
+The trained model is used to predict letters. 
+Additional calculations and the use of the dictionary are used to correct the text's content. 
